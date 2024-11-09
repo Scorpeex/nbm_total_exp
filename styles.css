@@ -1,0 +1,31 @@
+.wrapper-progress-info-mission-time .progress-info {
+    bottom: 5px;
+    left: 5px;
+    margin: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px
+}
+
+@media screen and (min-width: 768px) {
+    .info-time-text {
+        background-image:url(/back.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #41b8ea
+    }
+}
+
+.info-time-text {
+    color: #ababab;
+    font-family: RussoOne;
+    font-size: 12px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: .02em;
+    line-height: 1.67;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase
+}
+
